@@ -10,7 +10,7 @@ const ImageUpload = ({ username }) => {
   const [progress, setProgress] = useState(0);
   const [caption, setCaption] = useState("");
 
-  const handleChange = (e) => {
+  const handleChange = (e) => {//here we used 0 index because we want to add one at a time only //   
     if (e.target.files[0]) {
       setImage(e.target.files[0]);
     }
