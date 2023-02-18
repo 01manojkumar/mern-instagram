@@ -10,6 +10,15 @@ const firebaseApp = firebase.initializeApp({
   appId: "1:671034896143:web:3aceafdf2319c9f1fc587a",
 });
 
+
+/* db == by this we will access database-----
+
+auth== by this we are going to handle login , creating users etc.
+
+storage ===   by this we can upload data and store it on database */
+
+
+
 const db = firebaseApp.firestore();
 const auth = firebase.auth();
 const storage = firebase.storage();
